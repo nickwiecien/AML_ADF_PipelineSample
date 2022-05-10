@@ -23,7 +23,7 @@ A terminal will now open where you can navigate the directory tree. Make sure to
 ![Image of terminal](img/img13.png?raw=true "Notebook Terminal")
 
 ```
-git clone https://https://github.com/nickwiecien/AML_ADF_PipelineSample
+git clone https://github.com/nickwiecien/AML_ADF_PipelineSample
 ```
 The notebook will now pull down the code repository into the cloned folder. You will now see the project in the left folder navigation window.
 
