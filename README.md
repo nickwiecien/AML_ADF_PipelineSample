@@ -6,7 +6,7 @@ This repo contains sample code for creating an Azure Machine Learning pipeline t
 
 ### Azure Machine Learning
 
-A requirements.txt file is included with then necessary packages that need to be installed in your working environment. To install these packages you can execute a command line argument from your notebook cell by entering `% pip install -r requirements.txt`.
+A requirements.txt file is included with the necessary packages that may be need to be installed in your working environment. To install these packages you can execute a command line argument from your notebook cell by entering `%pip install -r requirements.txt`.
 
 ### VS Code
 
@@ -14,11 +14,21 @@ A vscode_environment.yml file is included in this repository for creating a virt
 
 ### Cloning the code into your project
 
-The instructions below assume you have provisioned an Azure Machine Learning workspace and a Compute Instance within this workspace. You can clone the code within this repo to your workspace by executing the following command in a terminal.
+The instructions below assume you have provisioned an Azure Machine Learning workspace and a Compute Instance within this workspace. You can clone the code within this repo to your workspace by executing the following command in a terminal. The terminal icon in above the folders to the upper right hand side.
+
+![Clone a git repository](img/img12.png?raw=true "Clone git repo")
+
+A terminal will now open where you can navigate the directory tree. Make sure to change directory to the appropriate folder. If the terminal does not have a command prompt then you need to select a compute to work from. If you don't have a compute then you can easily create one from the compute tab in the left navigation bar.
+
+![Image of terminal](img/img13.png?raw=true "Notebook Terminal")
 
 ```
 git clone https://https://github.com/nickwiecien/AML_ADF_PipelineSample
 ```
+The notebook will now pull down the code repository into the cloned folder. You will now see the project in the left folder navigation window.
+
+![Image of terminal](img/img16.png?raw=true "Notebook Terminal")
+
 
 After cloning this repo execute the notebooks `01_Demo_Env_Setup.ipynb` and `02_AML_Pipeline_Setup.ipynb` in sequence. `<i>`Note: In order to run all steps of this demo you will need access to an Azure SQL database which you can use SQL Authentication to log into. There is a section in the `01` notebook which contains a pyodbc snippet for creating a new table. `</i>`
 
